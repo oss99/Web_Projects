@@ -1,0 +1,117 @@
+body{
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+/* Container */
+.container{
+  width: 80%;
+  margin: auto ;
+  overflow: hidden;
+}
+header .logo{
+  margin-top: 10px;
+  float: left;
+}
+header{
+  background: #9E2A2B;
+  border-bottom: #E09F3E 3px solid;
+}
+header ul{
+  margin:0;
+  padding: 0;
+}
+header li{
+  float: left;
+  display: inline;
+  padding:0 20px;
+  margin-top: 15px;
+}
+header .Home a{
+  color: #FFF3B0;
+}
+header a:hover{
+  color:#FFF3B0;
+}
+header a {
+  color:white;
+}
+/* Navbar*/
+nav{
+  padding: 20px;
+  float: right;
+}
+/* Main */
+#showcase{
+  min-height: 400px;
+  background: url("../images/p.png") no-repeat 0 -100px;
+  background-position: center;
+  text-align: center;
+  color: #540B0E;
+  border-bottom: #E09F3E 3px solid;
+}
+#showcase h1{
+  margin: 0 0 300px 0;
+  font-size: 50px;
+}
+#showcase{
+  font-size: 20px;
+}
+/* subscribe */
+.subscribe{
+  padding:15px;
+  background: #9E2A2B;
+  color: white;
+  border-bottom: #E09F3E 3px solid;
+}
+.subscribe h3{
+  float: left;
+}
+.subscribe form{
+  float:right;
+  padding:  15px;
+}
+input{
+  padding: 5px;
+  width: 200px;
+}
+button{
+  width: 80px;
+  height: 28px;
+  background: #E09F3E;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* Logos */
+.icons{
+  background-color: #540B0E;
+  padding: 20px;
+
+}
+
+.icons p{
+  font-size: 16px;
+  margin: 10px;
+}
+.camera, .helal, .html{
+  background:#9E2A2B;
+  float: left;
+  width: 300px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+
+}
+/*Copyrights*/
+footer{
+  background: #9E2A2B;
+  color:White;
+  text-align: center;
+}
