@@ -4,6 +4,7 @@ body{
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  background: black;
 }
 a{
   text-decoration: none;
@@ -13,14 +14,15 @@ a{
   width: 80%;
   margin: auto ;
   overflow: hidden;
+  
 }
 header .logo{
   margin-top: 10px;
   float: left;
 }
 header{
-  background: #9E2A2B;
-  border-bottom: #E09F3E 3px solid;
+  background: #000000;
+  border-bottom: #fca311 3px solid;
 }
 header ul{
   margin:0;
@@ -33,10 +35,10 @@ header li{
   margin-top: 15px;
 }
 header .Home a{
-  color: #FFF3B0;
+  color: #fca311;
 }
 header a:hover{
-  color:#FFF3B0;
+  color:#ffffff;
 }
 header a {
   color:white;
@@ -49,11 +51,11 @@ nav{
 /* Main */
 #showcase{
   min-height: 400px;
-  background: url("../images/p.png") no-repeat 0 -100px;
+  background: url("../images/Bright.png") no-repeat 0 -100px;
   background-position: center;
   text-align: center;
-  color: #540B0E;
-  border-bottom: #E09F3E 3px solid;
+  color: white;
+  border-bottom: #fca311 3px solid;
 }
 #showcase h1{
   margin: 0 0 300px 0;
@@ -65,9 +67,9 @@ nav{
 /* subscribe */
 .subscribe{
   padding:15px;
-  background: #9E2A2B;
+  background: #000000;
   color: white;
-  border-bottom: #E09F3E 3px solid;
+  border-bottom: #fca311 3px solid;
 }
 .subscribe h3{
   float: left;
@@ -83,35 +85,93 @@ input{
 button{
   width: 80px;
   height: 28px;
-  background: #E09F3E;
-  color: white;
+  background: #fca311;
+  color: black;
   border: none;
   font-weight: bold;
   font-size: 16px;
 }
 /* Logos */
 .icons{
-  background-color: #540B0E;
-  padding: 20px;
+  background-color: #000000;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
 
 }
 
 .icons p{
-  font-size: 16px;
-  margin: 10px;
-}
-.camera, .helal, .html{
-  background:#9E2A2B;
-  float: left;
-  width: 300px;
-  margin: 40px;
-  text-align: center;
-  color: white;
 
+  font-size: 16px;
+}
+.camera,.helal, .html{
+  background:#9a031e;
+  text-align: center;
+  border: #ffffff solid 2px;
+  color: #ffffff;
+  width: 250px;
+  padding: 60px;
+  margin: 10px 100px;
+  display: flex;
+  justify-content: center;
 }
 /*Copyrights*/
 footer{
-  background: #9E2A2B;
+  background: #000000;
   color:White;
+  border-top: #fca311 solid 2px;
   text-align: center;
+  border-bottom: #fca311 solid 2px;
+}
+.about{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: #000000;
+  border-bottom: #fca311 solid 2px;
+}
+hr{
+ float: left;
+ width: 150px;
+}
+/* about */
+.omar, .unknown1 , .unknown2{
+  background:#9a031e;
+  text-align: center;
+  border: #ffffff solid 2px;
+  color: #ffffff;
+  width: 400px;
+  height: 300px;
+  padding: 0px;
+  margin: 20px 50px;
+  display: inline-block;
+  justify-content: center;
+}
+.omar{
+  border-radius: 0 40px 40px 0;
+}
+.unknown1{
+  border-radius: 40px;
+}
+.unknown2{
+  border-radius: 40px 0 0 40px;
+}
+#team, #about_us{
+
+  font-size: 40px;
+  color: white;
+}
+.social {
+  font-size: 30px;
+  color: #ffffff;
+}
+.social a{
+  color: white;
+
+}
+.social a:hover{
+  color: #fca311;
+  
 }
